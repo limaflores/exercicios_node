@@ -1,5 +1,5 @@
 // Import the file system module
-const fs = require("fs");
+const fs = require("fs"); // file system
  // Read the file 'arquivo.txt' in UTF-8 format
 fs.readFile('arquivo.txt', 'utf8', (err, data) => {
     // If there's an error while reading the file, log the error and stop the function
