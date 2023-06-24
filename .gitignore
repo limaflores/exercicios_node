@@ -1,2 +1,5 @@
 # Node.js Modules
 node_modules/
+# Package lock and JSON files
+package-lock.json
+package.json
