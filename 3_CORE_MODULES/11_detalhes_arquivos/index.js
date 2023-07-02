@@ -1,16 +1,14 @@
 const fs = require('fs')
 
-const arquivoAntigo = 'arquivo.txt'
-const arquivoNovo = 'novo.txt'
-
-
-fs.rename( arquivoAntigo, arquivoNovo, function (err) {
-
+fs.stat('arquivo.txt', (err, stats) => {
     if (err) {
         console.log(err)
         return
     }
-
-    console.log(`Arquivo ${arquivoAntigo} foi renomeado para ${arquivoNovo}!`)    
+    
+    console.log(stats.isFile())
+    console.log(stats.isDirectory())
+    console.log(stats.isSymbolicLink())
+    console.log(stats.ctime.toLocaleString())
+    console.log(stats.size)
 })
-
