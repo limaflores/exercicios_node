@@ -5,8 +5,8 @@ const url = require('url')
 const port = 3000
 
 const server = http.createServer((req, res) => {
-    const q = url.parse(req.url, true)
-    const filename = q.pathname.substring(1)
+    const query_of_url = url.parse(req.url, true)
+    const filename = query_of_url.pathname.substring(1)
 
     if (filename.includes('html')) {
         if(fs.existsSync(filename)){
