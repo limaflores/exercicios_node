@@ -141,7 +141,7 @@ function checkAccount(accountName){
 
 function addAmount(accountName, amount) {
     const accountData = getAccount(accountName)
-    
+    // Get the account data
     if(!amount) {
         console.log(chalk.bgRed.black`Ocorreu um erro, tente novamente mais tarde!`)
         return deposit()
