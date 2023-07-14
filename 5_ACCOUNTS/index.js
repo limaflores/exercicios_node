@@ -42,7 +42,6 @@ function operation() {
     }).catch(err => console.log(err))
 }
 
-
 // create an account
 function createAccount() {
     console.log(chalk.bgGreen.black('Parabéns por escolher o nosso banco!'))
