@@ -1,5 +1,6 @@
 # Node.js Modules
 node_modules/
+4_nodemon/node_modules/
 # Package lock and JSON files
 package-lock.json
 package.json
