@@ -2,6 +2,7 @@
 node_modules/
 4_nodemon/node_modules/
 6_EXPRESS/8_modulo_rotas/node_modules
+6_EXPRESS/9_colocando_css/node_modules
 # Package lock and JSON files
 package-lock.json
 package.json
