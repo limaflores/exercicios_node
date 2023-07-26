@@ -6,6 +6,7 @@ node_modules/
 6_EXPRESS/10_404/node_modules
 7_TEMPLATE_ENGINE/1_instalacao_handlebars/node_modules
 7_TEMPLATE_ENGINE/2_layouts/node_modules
+7_TEMPLATE_ENGINE/3_dados_para_view/node_modules
 # Package lock and JSON files
 package-lock.json
 package.json
