@@ -8,6 +8,7 @@ node_modules/
 7_TEMPLATE_ENGINE/2_layouts/node_modules
 7_TEMPLATE_ENGINE/3_dados_para_view/node_modules
 7_TEMPLATE_ENGINE/4_condicionais/node_modules
+7_TEMPLATE_ENGINE/5_else/node_modules
 # Package lock and JSON files
 package-lock.json
 package.json
