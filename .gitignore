@@ -13,6 +13,7 @@ node_modules/
 7_TEMPLATE_ENGINE/7_whith/node_modules
 7_TEMPLATE_ENGINE/8_partials/node_modules
 7_TEMPLATE_ENGINE/9_css/node_modules
+7_TEMPLATE_ENGINE/10_quarta_tarefa/node_modules
 # Package lock and JSON files
 package-lock.json
 package.json
