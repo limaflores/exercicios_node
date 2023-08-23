@@ -16,6 +16,7 @@ node_modules/
 7_TEMPLATE_ENGINE/10_quarta_tarefa/node_modules
 8_NODE_E_MYSQL/1_instalacao_handlebars/node_modules
 8_NODE_E_MYSQL/2_inserindo_dados/node_modules
+8_NODE_E_MYSQL/3_resgatar_dados/node_modules
 # Package lock and JSON files
 package-lock.json
 package.json
