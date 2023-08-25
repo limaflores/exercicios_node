@@ -40,17 +40,13 @@ app.post('/books/insertbook', (req, res) => {
 app.get('/books', (req, res) => {
     const sql = "SELECT * FROM books"
 
-    conn.query(sql, function(err, data) {
-        
+    conn.query(sql, function(err, data) {        
         if (err) {
             console.log(err)
             return
         }
-
         const books = data
-
         console.log(books)
-
         res.render('books', { books })
     })
 })
