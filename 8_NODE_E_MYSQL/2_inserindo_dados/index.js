@@ -41,6 +41,7 @@ const conn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     database: 'nodemysql1',
+    password: 'root',
 })
 
 conn.connect(function(err) {
