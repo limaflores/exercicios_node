@@ -20,6 +20,7 @@ node_modules/
 8_NODE_E_MYSQL/4_resgatar_individuais/node_modules
 8_NODE_E_MYSQL/5_edicao_primeira_etapa/node_modules
 8_NODE_E_MYSQL/6_edicao_segunda_etapa/node_modules
+8_NODE_E_MYSQL/7_edicao_terceira_etapa/node_modules
 # Package lock and JSON files
 package-lock.json
 package.json
