@@ -53,8 +53,9 @@ app.get('/books', (req, res) => {
 
 const conn = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: 'meta',
     database: 'nodemysql1',
+    password: 'root',
 })
 
 conn.connect(function(err) {
