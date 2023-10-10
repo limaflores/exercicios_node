@@ -2,7 +2,8 @@ const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize('nodesequelize2', 'meta', 'root', {
     host: 'localhost',
-    dialect: 'mysql'    
+    dialect: 'mysql',
+    port: 3307,    
 })
 
 try {
